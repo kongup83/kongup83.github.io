@@ -1,0 +1,32 @@
+# Site settings
+# in the templates available like {{ site.myvariable }}.
+title: kongup's Portfolio Site.
+email: kongup83@naver.com
+brand: KyoungMin Kim
+headline: Android Developer
+description: > # this means to ignore newlines until "baseurl:"
+  New Site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kongup.github.io/" # the base hostname & protocol for your site
+#copyright: 2016 Whatever Company, Inc. All Rights Reserved.
+copyright: 2017 kongup(Freelancer). All Rights Reserved.
+
+# Build settings
+permalink: /portfolio/:year/:month/:day/:title/
+highlighter: rouge
+markdown: kramdown
+
+# character set
+encoding: UTF-8
+
+# Account ids
+snapwidget: 328526
+
+# Contacts 
+email: kongup83@gmail.com
+# phone: +82-010-4744-4708
+phone: 
+
+# Tracking
+# googleAnalitycsID: UA-83933844-1
+googleAnalitycsID: 
