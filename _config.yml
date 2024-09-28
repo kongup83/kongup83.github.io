@@ -1,7 +1,7 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: kongup's Portfolio Site.
-email: -
+email: kongup83@naver.com
 brand: KyoungMin Kim
 headline: Android Developer
 description: > # this means to ignore newlines until "baseurl:"
@@ -23,7 +23,7 @@ encoding: UTF-8
 snapwidget: 328526
 
 # Contacts 
-email: kongup83@naver.com
+email: -
 # phone: +82-010-4744-4708
 phone: 
 
