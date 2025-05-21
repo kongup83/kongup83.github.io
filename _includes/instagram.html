@@ -1,7 +1,7 @@
 <section class="container container-instagram" >
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-            <h1>Portfolio</h1>
+            <h1>Portfolio List</h1>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12">
             <!-- Generate such a widget at snapwidget.com for your name -->
@@ -24,7 +24,8 @@
 				{% cycle 'add row' : '<div class="row">', '', '', '' %}
 				<div class="col-sm-6 col-md-3 col-lg-3">
 					<div class="container-fluid" style="margin:10px auto;">
-						<a href="{{ post.url | prepend: site.baseurl }}" class="no-uline" > <!-- target="_blank" -->
+						<a href="{{ post.url | prepend: site.baseurl }}" class="no-uline" > 
+							<!-- target="_blank" -->
 							<!--<img src="{{ post.preview | prepend: site.baseurl }}"> -->
 							<img src="./web-dist/images/{{ post.icon}}" class="img-fluid m-x-auto d-block img-rounded img-responsive" alt="{{ site.brand }}">
 							<p class="container-portfolio-text" style="text-align:center;">
